@@ -1,16 +1,35 @@
-
-
 header {
     padding-top: 10px;
     padding-bottom: 10px;
     background: #1C1C1C ;
     color:#FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-
+    
     .container {
         display: flex;
         justify-content: space-between;
     }
+
+    .menu{
+        position: relative;
+      }
+      
+      .menu:after {
+        content: '';
+        position: absolute;
+        width: 0; 
+        height: 3px;
+        display: block;
+        margin-top: 24px;
+        right: 0;
+        background: #E27866;
+        transition: .5s ease;
+      }
+       
+      .menu:hover:after{
+        width: 100%;
+        left: 0;
+        background: #E27866;
+      }
 
     ul {
         position: relative;
@@ -23,8 +42,7 @@ header {
             margin-left: 35px;
             opacity: 0.7;
             font-size: 14px;
-            border-bottom: 2px solid #E27866;
-
         }
+        
     }
 }   
