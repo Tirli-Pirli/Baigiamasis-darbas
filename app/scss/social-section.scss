@@ -1,0 +1,28 @@
+.section_media {
+    height: 105px;
+
+    .logos {
+        display: contents;
+    }
+    .media {
+        padding-top: 19px;
+    }
+}
+p {
+    padding-top: 5px;
+    font-size: 14px;
+    color: #86878B;
+    max-width: 394px;
+}
+
+    .img_logos {
+        width: 30px;
+        height: 30px ;
+        background-color: #FFFFFF;
+        padding-top: 38px;
+    }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}

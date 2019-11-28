@@ -5,34 +5,40 @@
     height: 57px;
     align-items: center;
     justify-content: center;
+    border-radius: 8px 8px 0px 0px;
 
+}
+.span {
+    padding: 7px;
+    color: #E27866;
 }
 
 label {
     padding-top:30px;
-    padding-left: 50px ;
+    margin-left: 51px;
+    
 }
-
 form {
-    position: relative;
     border: 2px solid white;
     display: flex;
     flex-direction: column;
     width: 360px;
     background-color: #FFFFFF;
-    border-radius: 8px 8px 8px 8px;
 
 }
+
 
 // get started
 
 .green {
     border: 0px;
+    border-radius: 0px 0px 8px 8px;
     background-color: #41D395;
-    padding-top: 57px;
+    height: 57px;
     width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    
 }
 
 // name/surname/phone
@@ -40,9 +46,9 @@ form {
 .persons-name {
     padding-top: 25px ;
     border: 0px;
-    padding-left: 50px;
     border-bottom: 1px solid #D8D8D8;
     width: 260px;
+    margin-left: 51px;
 }
 
 
