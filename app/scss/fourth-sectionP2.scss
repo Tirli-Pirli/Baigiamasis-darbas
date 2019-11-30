@@ -1,0 +1,25 @@
+.four-section_part_two {
+    padding-bottom: 50px;
+}
+.img_border {
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #E27866;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_collumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center {
+    text-align: center;
+    margin-top: 35px;
+}
+.fsize {
+    font-size: 20px;
+}

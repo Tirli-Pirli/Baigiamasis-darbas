@@ -1,9 +1,6 @@
 .section_media {
-    height: 105px;
+    padding-bottom: 40px;
 
-    .logos {
-        display: contents;
-    }
     .media {
         padding-top: 19px;
     }
@@ -17,9 +14,9 @@ p {
 
     .img_logos {
         width: 30px;
-        height: 30px ;
-        background-color: #FFFFFF;
+        height: 30px;
         padding-top: 38px;
+        margin-left: 107px;
     }
 
 .container {

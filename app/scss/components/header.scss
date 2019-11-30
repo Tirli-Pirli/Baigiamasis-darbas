@@ -52,3 +52,9 @@ header {
         
     }
 }   
+
+@media (max-width:800px) {
+    .display {
+      display: none;
+    }
+}

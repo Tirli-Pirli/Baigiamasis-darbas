@@ -1,0 +1,41 @@
+.four-section {
+    padding-bottom: 50px;
+
+    .container {
+        
+        .top_container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+    }
+
+
+
+
+    .style_of_text {
+        font-size: 36px;
+        margin-top: 98px;
+    }
+
+    .style_of_text_border {
+        margin-top: 27px;
+        position: relative;
+        margin-top: 50px
+    }
+}
+.style_of_text_border:before {
+    content: '';
+    position: absolute;
+    background-color: #E27866;
+    width: 17.7%;
+    height: 2px;
+    top: -22px;
+    margin-left: 160px;
+    
+}
+
+.centercont {
+    justify-content: center;
+}

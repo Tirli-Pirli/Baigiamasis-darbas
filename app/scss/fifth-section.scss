@@ -1,0 +1,129 @@
+.fifth-section {
+    padding-bottom: 50px;
+    background-color: #6696E2;
+    
+    .style_of_pricint {
+        font-size: 36px;
+        margin-top: 98px;
+        color: #FFFFFF;
+    }
+
+    .style_of_lorem_border{
+        margin-top: 27px;
+        position: relative;
+        margin-top: 50px;
+        color: #FFFFFF;
+    
+    }
+}
+.style_of_lorem_border:before {
+    content: '';
+    position: absolute;
+    background-color: #41D395;
+    width: 17.7%;
+    height: 2px;
+    top: -22px;
+    margin-left: 160px;
+    
+}
+.container {
+    .top_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+.collumnn {
+    flex-direction: column;
+}
+
+// pricing cards
+.pricing_container {
+    margin-top: 118px;
+}
+.black {
+    height: 210px;
+    width: 343px;
+    background-color:#1C1C1C;
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+
+    .color-style {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding-top: 14px;
+    }
+    .money {
+        color: #FFFFFF;
+        font-size: 94px;
+        padding-top: 13px;
+    }
+    .color_text {
+        opacity: 0.5;
+        padding-top: 5px;
+    }
+}
+.green-border {
+    background-color: #41D395;
+    width: 343px;
+    height: 6px;
+    text-align: center;
+}
+.extra {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    
+}
+.move_up {
+    position: relative;
+    top: -33px;
+    margin-left: 40px;
+}
+.margin_last {
+    margin-left: 40px;
+}
+
+
+.white {
+    width:343px ;
+    height: 240px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+    
+}
+.padding-around {
+    padding: 11px;
+    text-align: center;
+}
+
+.pricing_container {
+    display: flex;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+   .container{
+        justify-content: center;
+        .pricing_container {
+            flex-direction: column;
+            .basic {
+                padding-bottom: 20px;
+         }
+            .move_up {
+                padding-top: 60px; 
+                margin-left: 0px;         
+            }
+            .margin_last {
+                margin-left: 0px;
+            }
+        }
+    }
+}

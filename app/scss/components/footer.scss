@@ -1,3 +1,18 @@
 footer {
-    background: red;
+    background-color: #1C1C1C;
+}
+.img_logos_footer {
+    width: 20px;
+    height: 20px ;
+    padding-top:51px;
+    margin-right: 113px;
+}
+    
+.media_padding {
+    padding-top: 51px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+    display: flex;
 }

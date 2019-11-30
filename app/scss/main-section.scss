@@ -1,11 +1,11 @@
 .hero {
     position: relative;
-    height: 640px;
+    
     background-image: url(hero.jpg);
     
 
     .hero_overlay {
-        position: absolute;
+        padding-bottom: 156px;
         background-color: rgba(0, 0, 0, 0.5);
         z-index: 2;
         width: 100%;
