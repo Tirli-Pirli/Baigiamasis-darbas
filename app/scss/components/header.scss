@@ -8,11 +8,19 @@ header {
     top:0px;
     z-index: 5555;
     
+    .main-icon {
+      z-index: 9999;
+    }
     
     .container {
         display: flex;
         justify-content: space-between;
 
+        .checkbox {
+          display: none;
+
+        }
+       
     }
 
     .menu{
@@ -53,8 +61,74 @@ header {
     }
 }   
 
-@media (max-width:800px) {
-    .display {
+@media (max-width:680px) {
+    .dekstop-menu {
       display: none;
     }
+}
+
+
+// burger
+
+.mobile-menu {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: black;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+@media (min-width:680px) {
+  .magic-label {
+      display: flex;
+
+  }
+}
+@media (min-width:680px) {
+  .menu-open {
+    display: none;
+  }
+}
+
+.menu-open, .menu-close {
+  width: 30px;
+  height: 30px;
+}
+
+.magic-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+}
+
+.mobile-menu .burger {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.magic-label .menu-close {
+  display: none;
+}
+.checkbox:checked + .magic-label .menu-open {
+  display: none;
+}
+.checkbox:checked + .magic-label .menu-close {
+  display: block;
+}
+.checkbox:checked ~ .mobile-menu {
+  opacity: 1;
+  visibility: visible;
 }

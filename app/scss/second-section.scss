@@ -103,6 +103,7 @@
 .text {
     color: #FFFFFF;
     font-size: 14px;
+    padding-top: 33px;
 }
 .first,
 .second,
@@ -133,7 +134,7 @@
 .third {
     display: flex;
     width: 362px;
-    height: 177px;
+    height: 168px;
     background-image: url(trecia-compressor.jpg);
     align-items: center;
     justify-content: center;
@@ -168,4 +169,37 @@
     color: #FFFFFF;
     z-index: 55;
     font-size: 20px;
+}
+
+@media (max-width:860px) {
+    .media {
+        flex-direction: column;
+        .third {
+            margin-left: 26px;
+        }
+        .text_container {
+            margin-left: 0px;
+            padding-top: 40px;
+        }
+        .padding {
+            padding-top: 0px;
+        }
+        .img-row {
+            padding-top: 40px;
+        }
+        .left_explore {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 40px;
+        }
+    }
+}
+
+@media (max-width:783px) {
+    .media{
+        .third {
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+    }    
 }

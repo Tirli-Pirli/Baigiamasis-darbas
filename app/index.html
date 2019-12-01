@@ -15,19 +15,23 @@
     <header class="slide">
         <div class="container">
             <img class="main-icon" src="cheshire-logo.svg" alt="icon">
-            <nav class="display">
-                <ul>
-                    <li class="menu">Features</li>
+            <nav>
+                <ul class="dekstop-menu">
+                    <li class="menu" >Features</li>
                     <li class="menu">About</span></li>
                     <li class="menu">Pricing</li>
                     <li class="menu">Reviews</li>
-                    <li class="menu">Contact</li>
+                    <li class="menu" id="contact">Contact</li>
                 </ul>
             </nav>
 
-            <img class="menu-svg" src="options.svg" alt="">
-            <div class="burger-menu">
-                <nav>
+            <input class="checkbox" id="checkbox" type="checkbox">
+            <label class="magic-label" for="checkbox">
+                <img class="menu-open" src="options.svg" alt="">
+                <img class="menu-close" src="options.svg" alt="">
+            </label>    
+            
+                <nav class="mobile-menu">
                     <ul>
                         <li class="burger">Features</li>
                         <li class="burger">About</span></li>
@@ -36,13 +40,8 @@
                         <li class="burger">Contact</li>
                     </ul>
                 </nav>
-            </div>
-
+        
         </div>
-        
-            
-        
-
     </header>
 
     <section class="hero">
@@ -114,7 +113,7 @@
     
     <section class="explore">
         <div class="explore_overlay">
-            <div class="container">
+            <div class="container media">
                 <div class="left_explore">
                     <div class="block">
                         <p>Register</p>
@@ -146,7 +145,7 @@
     </section>
 
     <section class="third-section">
-        <div class="container">
+        <div class="container media-col">
             <div class="container_section">
                 <img class="section-logo-big" src="cheshire-logo.svg" alt="icon">
             </div>

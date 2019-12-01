@@ -74,3 +74,11 @@
 .title_text {
     color: #FFFFFF;
 }
+
+@media (max-width:1100px) {
+    
+        .media-col {
+            flex-direction: column;
+     
+    }
+}

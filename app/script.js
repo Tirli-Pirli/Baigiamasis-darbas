@@ -22,5 +22,10 @@ var mySwiper1 = new Swiper ('.swiper-container', {
     },
   })
 
+  var element = document.getElementById("contact");
 
-
+  element.scrollIntoView();
+  element.scrollIntoView(false);
+  element.scrollIntoView({block: "end"});
+  element.scrollIntoView({behavior: "smooth"});
+  

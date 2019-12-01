@@ -2,6 +2,7 @@
     position: relative;
     
     background-image: url(hero.jpg);
+    background-size: cover;
     
 
     .hero_overlay {
@@ -57,4 +58,16 @@
 
 .container {
     justify-content: space-between;
+}
+
+@media (max-width:800px) {
+    .hero {
+        .container {
+            flex-direction: column;
+
+            .right {
+                padding-top: 30px;
+            }
+        }
+    }
 }
