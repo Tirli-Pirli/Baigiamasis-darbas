@@ -39,7 +39,7 @@
     background-color:#6696E2;
     position: absolute;
     transform: rotate(45deg);
-    bottom: -11px;
+    bottom: -9px;
     left: 25px;
 }
 .picture-class {
@@ -102,7 +102,10 @@
 
 @media (max-width:740px) {
     .extra-style:after {
-        left: 0px;
+        left: 195px;
         transition: 1 ease-in-out;
+    }
+    .extra-style{
+        text-align: center;
     }
 }

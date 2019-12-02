@@ -172,7 +172,7 @@
 }
 
 @media (max-width:860px) {
-    .media {
+    .media-exp {
         flex-direction: column;
         .third {
             margin-left: 26px;
@@ -183,20 +183,25 @@
         }
         .padding {
             padding-top: 0px;
+            text-align: center;
         }
         .img-row {
             padding-top: 40px;
+            margin-left: 30px;
         }
         .left_explore {
             display: flex;
             justify-content: space-between;
             padding-top: 40px;
         }
+        .text {
+            text-align: center;
+        }
     }
 }
 
 @media (max-width:783px) {
-    .media{
+    .media-exp{
         .third {
             margin-left: 0px;
             margin-top: 20px;

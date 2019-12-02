@@ -11,17 +11,16 @@
 </head>
 
 <body>
-       
     <header class="slide">
         <div class="container">
             <img class="main-icon" src="cheshire-logo.svg" alt="icon">
             <nav>
                 <ul class="dekstop-menu">
-                    <li class="menu" >Features</li>
-                    <li class="menu">About</span></li>
-                    <li class="menu">Pricing</li>
-                    <li class="menu">Reviews</li>
-                    <li class="menu" id="contact">Contact</li>
+                    <li class="menu" onclick="scrollToFeatures()">Features</li>
+                    <li class="menu" onclick="scrollToAbout()">About</span></li>
+                    <li class="menu" onclick="scrollToPricing()">Pricing</li>
+                    <li class="menu" onclick="scrollToReviews()">Reviews</li>
+                    <li class="menu" onclick="scrollToContact()">Contact</li>
                 </ul>
             </nav>
 
@@ -31,16 +30,15 @@
                 <img class="menu-close" src="options.svg" alt="">
             </label>    
             
-                <nav class="mobile-menu">
-                    <ul>
-                        <li class="burger">Features</li>
-                        <li class="burger">About</span></li>
-                        <li class="burger">Pricing</li>
-                        <li class="burger">Reviews</li>
-                        <li class="burger">Contact</li>
-                    </ul>
-                </nav>
-        
+            <nav class="mobile-menu">
+                <ul>
+                    <li class="burger">Features</li>
+                    <li class="burger">About</span></li>
+                    <li class="burger">Pricing</li>
+                    <li class="burger">Reviews</li>
+                    <li class="burger">Contact</li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -94,7 +92,7 @@
     </section>
 
     <section class="section_media">
-        <div class="container">
+        <div class="container media-px">
             <div class="media">
                 <h3 class="social_media">Social Media</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -112,8 +110,8 @@
     
     
     <section class="explore">
-        <div class="explore_overlay">
-            <div class="container media">
+        <div class="explore_overlay" id="features">
+            <div class="container media-exp">
                 <div class="left_explore">
                     <div class="block">
                         <p>Register</p>
@@ -186,7 +184,7 @@
     </section>
 
     <section class="four-section">
-        <div class="container centercont">
+        <div class="container centercont" id="about">
             <div class="container_center">
             <div class="top_container">
                     <h2 class="style_of_text">WHY THIS IS AWESOME</h2>
@@ -238,7 +236,7 @@
 
 
     <section class="fifth-section">
-        <div class="container collumnn">
+        <div class="container collumnn" id="pricing">
             
                 <div class="top_container">
                     <h2 class="style_of_pricint">PRICING OPTIONS</h2>
@@ -306,14 +304,11 @@
 
 
     <section class="sliding-section">
-            <div class="container collumnn">
-            
-                    <div class="top_container">
-                        <h2 class="style_of_pricint extra-style">WHAT OUR CUSTOMERS ARE SAYING</h2>
-
-                    </div>
-                
+        <div class="container collumnn" id="reviews">
+            <div class="top_container">
+                <h2 class="style_of_pricint extra-style">WHAT OUR CUSTOMERS ARE SAYING</h2>
             </div>
+        </div>
         <div class="container">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -455,7 +450,7 @@
 
     <section class="contact-section">
         <div class="container collumnn">
-            <div class="top_container">
+            <div class="top_container" id="contacts">
                 <h2 class="style_of_pricint colorandstyle">CONTACT US</h2>
                 <p class="style_of_lorem_border stylecolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
@@ -496,7 +491,7 @@
     <footer class="section_media">
         <div class="container row-reverse">
             <div class="media_padding">
-                <p>© 2019 Cheshire County</p>
+                <p class="fot">© 2019 Cheshire County</p>
             </div>
             <div class="logos">         
                 <img class="img_logos_footer" src="facebook-logo.svg" alt="">

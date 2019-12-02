@@ -64,9 +64,14 @@
     .hero {
         .container {
             flex-direction: column;
+            .left {
+                align-items: center;
+            }  
+            
 
             .right {
                 padding-top: 30px;
+        
             }
         }
     }

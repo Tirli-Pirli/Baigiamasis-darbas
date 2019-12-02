@@ -22,10 +22,27 @@ var mySwiper1 = new Swiper ('.swiper-container', {
     },
   })
 
-  var element = document.getElementById("contact");
+  function scrollToContact() {
+    var elmnt = document.getElementById("contacts")
+    elmnt.scrollIntoView();
+  }
 
-  element.scrollIntoView();
-  element.scrollIntoView(false);
-  element.scrollIntoView({block: "end"});
-  element.scrollIntoView({behavior: "smooth"});
-  
+  function scrollToReviews() {
+    var elmnt = document.getElementById("reviews")
+    elmnt.scrollIntoView();
+    }
+
+  function scrollToPricing() {
+    var elmnt = document.getElementById("pricing")
+    elmnt.scrollIntoView();
+  }
+
+  function scrollToAbout() {
+    var elmnt = document.getElementById("about")
+    elmnt.scrollIntoView();
+    }
+
+    function scrollToFeatures() {
+      var elmnt = document.getElementById("features")
+      elmnt.scrollIntoView();
+      }

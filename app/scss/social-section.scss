@@ -12,14 +12,32 @@ p {
     max-width: 394px;
 }
 
+.media-px{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
     .img_logos {
         width: 30px;
         height: 30px;
         padding-top: 38px;
-        margin-left: 107px;
+        margin-left: 80px;
     }
 
-.container {
-    display: flex;
-    justify-content: space-between;
+
+@media (max-width:1000px) {
+    .media-px {
+        flex-direction: column;
+    }
+    .media {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
