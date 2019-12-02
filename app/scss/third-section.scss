@@ -81,3 +81,15 @@
         flex-direction: column;
     }
 }
+
+@media (max-width:400px) {
+    .third-section{
+        .section-logo-big {
+            width:334px;
+            height: 148px;
+        }
+        .color_logo {
+            width: 70px;
+        }
+    }
+}

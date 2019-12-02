@@ -39,4 +39,14 @@ footer {
             }
         }
     }
-        
+
+@media (max-width:400px) {
+    .img_logos_footer {
+        margin-right: 0px;
+    }
+    .section_media {
+        .fot {
+            margin-left: 0px
+        }
+    }
+}

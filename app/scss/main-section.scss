@@ -76,3 +76,15 @@
         }
     }
 }
+
+@media (max-width:400px) {
+    .container {
+        .right {
+            margin-left: 13px;
+            form {
+                width: auto;
+            }
+        }
+    }
+    
+}

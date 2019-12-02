@@ -133,3 +133,13 @@ header {
   opacity: 1;
   visibility: visible;
 }
+
+@media (max-width:400px) {
+  header {
+    ul {
+      li {
+        margin-left: 0px;
+      }
+    }
+  }
+}

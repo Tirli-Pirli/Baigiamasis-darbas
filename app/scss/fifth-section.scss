@@ -127,3 +127,11 @@
         }
     }
 }
+@media (max-width:400px) {
+    .style_of_lorem_border:before {
+        margin-left: 112px;
+    }
+    .style_of_lorem_border {
+        text-align: center;
+    }
+}

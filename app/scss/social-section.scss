@@ -41,3 +41,9 @@ p {
         flex-direction: column;
     }
 }
+
+@media (max-width:400px) {
+    .img_logos {
+            margin-left: 0px;
+    }
+}

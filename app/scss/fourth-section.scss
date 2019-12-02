@@ -39,3 +39,18 @@
 .centercont {
     justify-content: center;
 }
+
+@media (max-width:400px) {
+    
+    .four-section {
+        .style_of_text{
+            text-align: center;
+        }
+        .style_of_text_border{
+            text-align: center;
+        }
+        .style_of_text_border::before{
+            margin-left: 109px;
+        }
+    }
+}

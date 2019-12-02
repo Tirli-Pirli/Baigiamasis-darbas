@@ -208,3 +208,20 @@
         }
     }    
 }
+
+@media (max-width:400px){
+        .left_explore {
+            margin: -18px;
+        }
+    .media-exp{
+        .img-row {
+            justify-content: center;
+            margin-left: 0px;
+            .second {
+                margin-left: 0px;
+                margin-top: 20px;
+            }
+        }
+    }
+        
+    }

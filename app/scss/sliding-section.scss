@@ -103,9 +103,20 @@
 @media (max-width:740px) {
     .extra-style:after {
         left: 195px;
-        transition: 1 ease-in-out;
     }
     .extra-style{
         text-align: center;
+    }
+}
+
+@media (max-width:400px) {
+    .extra-style:after{
+        left:145px;
+    }
+    .small_block {
+        left: 144px;
+    }
+    .picture-class{
+        left: 67px;
     }
 }
