@@ -39,7 +39,11 @@ footer {
             }
         }
     }
-
+@media (max-width:440px) {
+    .img_logos_footer {
+        margin-right: 0px;
+    }
+}
 @media (max-width:400px) {
     .img_logos_footer {
         margin-right: 0px;

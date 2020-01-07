@@ -72,7 +72,7 @@ header {
 
 .mobile-menu {
   position: fixed;
-  height: 100vh;
+  height: 30vh;
   width: 100%;
   background: black;
   top: 0;
@@ -133,13 +133,15 @@ header {
   opacity: 1;
   visibility: visible;
 }
-
-@media (max-width:400px) {
-  header {
-    ul {
-      li {
-        margin-left: 0px;
-      }
-    }
+@media (max-width:440px) {
+  header ul li {
+    margin-left: 0px;
   }
 }
+
+@media (max-width:400px) {
+  header ul li {
+        margin-left: 0px;
+  }
+ }
+

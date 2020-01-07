@@ -40,6 +40,10 @@
         width: 135px;
         height: 42px;
     }
+    .download-button:active {
+        background-color: gray;
+        opacity: .5;
+    }
     
 }
 .h2:before {
@@ -87,4 +91,24 @@
         }
     }
     
+}
+
+@media (max-width:350px) {
+    .container {
+        .right {
+            margin-left:-18px;
+
+        }
+    }
+}
+
+@media (max-width:380px) {
+    .hero_overlay {
+        .left {
+            margin-left: 10px;
+        }
+        .right {
+            margin-left: 5px;
+        }
+    }
 }

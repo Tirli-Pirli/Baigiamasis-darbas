@@ -54,3 +54,20 @@
         }
     }
 }
+@media (max-width:440px) {
+    .four-section {
+        .style_of_text {
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
+@media (max-width:350px) {
+    .four-section {
+        .style_of_text_border::before {
+            margin-left: 75px;
+        }
+    }
+}

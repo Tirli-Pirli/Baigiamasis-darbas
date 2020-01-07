@@ -44,7 +44,6 @@
 }
 .black {
     height: 210px;
-    width: 343px;
     background-color:#1C1C1C;
     border-radius: 8px 8px 0px 0px;
     text-align: center;
@@ -133,5 +132,44 @@
     }
     .style_of_lorem_border {
         text-align: center;
+    }
+}
+@media (max-width:440px) {
+    .fifth-section {
+        p {
+            text-align: center;
+        }
+        .style_of_lorem_border::before {
+            margin-left:140px;
+        }
+    }
+}
+@media (max-width:380px) {
+    .fifth-section{
+        .style_of_pricint {
+            text-align: center;
+        }
+        .style_of_lorem_border::before {
+            margin-left: 110px;
+        }
+    }      
+}
+@media (max-width:350px) {
+    .fifth-section {
+        .style_of_pricint {
+            text-align: center;
+        }
+        .style_of_lorem_border::before {
+            margin-left: 75px;
+        }
+        .basic {
+            width: 250px;
+        }
+        .green-border {
+            width: 250px;
+        }
+        .white {
+            width: 250px;
+        }
     }
 }

@@ -208,6 +208,13 @@
         }
     }    
 }
+@media (max-width:440px) {
+    .media-exp {
+        .img-row {
+            margin-left: 5px;
+        }
+    }
+}
 
 @media (max-width:400px){
         .left_explore {
@@ -225,3 +232,19 @@
     }
         
     }
+@media (max-width:380px) {
+    .left_explore {
+        .block {
+            width: 90px;
+            
+        }
+    }
+}
+@media (max-width:350px) {
+    .left_explore {
+        .block {
+            width: 80px;
+            
+        }
+    }
+}

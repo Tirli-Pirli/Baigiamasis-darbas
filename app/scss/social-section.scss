@@ -47,3 +47,21 @@ p {
             margin-left: 0px;
     }
 }
+@media (max-width:440px) {
+    .section_media {
+        p {
+            text-align: center;
+        }
+        .img_logos {
+            margin-left: 0px;
+        }
+    }
+}
+
+@media (max-width:350px) {
+    .section_media {
+        p {
+            text-align: center;
+        }
+    }
+}

@@ -99,6 +99,11 @@
     margin-top: 67px;
     position: relative;
 }
+.heroes {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
 
 @media (max-width:740px) {
     .extra-style:after {
@@ -118,5 +123,35 @@
     }
     .picture-class{
         left: 67px;
+    }
+}
+@media (max-width:440px) {
+    .extra-style:after {
+        left:160px ;
+    }
+    .small_block {
+        left: 165px;
+    }
+    .picture-class {
+        left: 105px;
+    }
+}
+@media (max-width:380px) {
+    .extra-style:after {
+        left: 140px;
+    }
+    .small_block {
+        left: 150px;
+    }
+    .picture-class {
+        left:90px;
+    }
+}
+@media (max-width:350px) {
+    .extra-style:after {
+        left: 119px;
+    }
+    .small_block {
+        left: 125px;
     }
 }
